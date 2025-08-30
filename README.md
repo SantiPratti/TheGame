@@ -2,21 +2,6 @@
 
 API REST para gestión de tareas construida con Node.js, Express.js y SQLite.
 
-## 📁 Estructura del Proyecto
-
-
-ProyectoBackendCodeLaunch/
-│
-├── controllers/
-│   └── tasksController.js    # Lógica de controladores
-├── routes/
-│   └── tasks.js             # Definición de rutas
-├── database.js              # Configuración de base de datos
-├── index.js                 # Punto de entrada de la aplicación
-├── package.json            # Dependencias del proyecto
-└── README.md               # Documentación del proyecto
-
-
 ## ⚙️ Instalación
 
 1. **Clonar el repositorio**

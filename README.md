@@ -2,22 +2,6 @@
 
 API REST para gestión de tareas construida con Node.js, Express.js y SQLite.
 
-## 📋 Características
-
-- ✅ Operaciones CRUD completas (Crear, Leer, Actualizar, Eliminar)
-- ✅ Base de datos SQLite integrada
-- ✅ Validación de datos robusta
-- ✅ Manejo de errores detallado
-- ✅ Arquitectura modular y escalable
-- ✅ Filtrado de tareas por estado
-- ✅ Endpoints RESTful
-
-## 🚀 Tecnologías Utilizadas
-
-- **Node.js** - Entorno de ejecución de JavaScript
-- **Express.js** - Framework web para Node.js
-- **SQLite3** - Base de datos ligera
-
 ## 📁 Estructura del Proyecto
 
 

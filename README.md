@@ -58,6 +58,7 @@ El servidor se ejecutará en `http://localhost:8080`
 
 {
   "express": "^4.18.2",
+
   "sqlite3": "^5.1.6"
 }
 
@@ -78,8 +79,11 @@ GET /tasks
 [
   {
     "id": 1,
+
     "titulo": "Completar proyecto",
+
     "descripcion": "Finalizar la API de tareas",
+
     "completada": true
   }
 ]
@@ -94,7 +98,9 @@ POST /tasks
 
 {
   "titulo": "Nueva tarea",
+
   "descripcion": "Descripción de la tarea",
+
   "completada": false
 }
 
@@ -103,8 +109,11 @@ POST /tasks
 
 {
   "id": 2,
+
   "titulo": "Nueva tarea",
+
   "descripcion": "Descripción de la tarea",
+
   "completada": false
 }
 
@@ -117,7 +126,9 @@ PUT /tasks/:id
 
 {
   "titulo": "Tarea actualizada",
+
   "descripcion": "Nueva descripción",
+  
   "completada": true
 }
 
@@ -130,6 +141,7 @@ DELETE /tasks/:id
 
 {
   "message": "Tarea eliminada correctamente",
+  
   "id": 1
 }
 
